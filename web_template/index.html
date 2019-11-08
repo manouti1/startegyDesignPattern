@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        .row.content {
+            height: 550px
+        }
+
+        .sidenav {
+            background-color: #f1f1f1;
+            height: 100%;
+        }
+
+        @media screen and (max-width: 767px) {
+            .row.content {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse visible-xs">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">ABYAT</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Bedroom</a></li>
+                    <li><a href="#">Kitchen</a></li>
+                    <li><a href="#">Bathroom</a></li>
+                    <li><a href="#">Living Room</a></li>
+                    <li><a href="#section5">Outdoor</a></li>
+                    <li><a href="#section6">Decor</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#item-2" data-parent="#accordion1">Dining</a>
+                        <div id="item-2" class="collapse">
+                            <ul class="nav flex-column ml-3">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Dining Sets</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Cutleries</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Serveware</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Cookware</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Plates + Bowls</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a hef="#">Interiors</a></li>
+                    <li><a hef="#section8">Storage</a></li>
+                    <li><a hef="#section9">Tiles</a></li>
+                    <li><a hef="#section10">Textile</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-2 sidenav hidden-xs">
+                <h2>ABYAT</h2>
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active"><a href="#section1">Bedroom</a></li>
+                    <li><a href="#section2">Kitchen</a></li>
+                    <li><a href="#section3">Bathroom</a></li>
+                    <li><a href="#section4">Living Room</a></li>
+                    <li><a href="#section5">Outdoor</a></li>
+                    <li><a href="#section6">Decor</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dining
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Dining Sets</a></li>
+                            <li><a href="#">Cutleries</a></li>
+                            <li><a href="#">Serveware</a></li>
+                            <li><a href="#">Cookware</a></li>
+                            <li><a href="#">Plates + Bowls</a></li>
+                        </ul>
+                    </li>
+                    <li><a hef="#section7">Interiors</a></li>
+                    <li><a hef="#section8">Storage</a></li>
+                    <li><a hef="#section9">Tiles</a></li>
+                    <li><a hef="#section10">Textile</a></li>
+                </ul><br>
+            </div>
+            <br>
+
+            <div class="col-sm-10">
+                <div class="well">
+                    <h4>Dashboard</h4>
+                    <p>Some text..</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-xs-6">
+                        <div class="well img-">
+                            <h4>Image1</h4>
+                            <p>some text</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-6">
+                        <div class="well">
+                            <h4>Image2</h4>
+                            <p>some text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="well">
+                            <p>Text</p>
+                            <p>Text</p>
+                            <p>Text</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="well">
+                            <p>Text</p>
+                            <p>Text</p>
+                            <p>Text</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="well">
+                            <p>Text</p>
+                            <p>Text</p>
+                            <p>Text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-3">
+                        <div class="well">
+                            <p>Text</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well">
+                            <p>Text</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well">
+                            <p>Text</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well">
+                            <p>Text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">Image here</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="well">
+                            <p>Text</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="well">
+                            <p>Text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="well">
+                            <p>Text</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="well">
+                            <p>Text</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="well">
+                            <p>Text</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
